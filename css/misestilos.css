@@ -1,0 +1,55 @@
+p {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin: 3% 3% 3% 3%;
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+
+span{
+  font-size: 21px;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+img {
+  width: 130px;
+  height: 150px;
+  float: left;
+  margin: 3% 3% 3% 3%;
+  vertical-align: middle;
+  border: double;
+}
+
+div{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+  display: block;
+}
+
+body{
+	background-color: #D3D3D3;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  height: 800px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
